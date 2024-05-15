@@ -1,8 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using Conner.Domain.Entities;
 using Conner.Application.Interfaces;
 
-namespace Conner.API.Controllers;
+namespace ConnerAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]
