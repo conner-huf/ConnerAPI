@@ -1,4 +1,7 @@
 # ConnerAPI
+### 5/15/24
+
+I got the endpoints reworked today. Now there're /projects, /workexperience, /education endpoints that display resume info, then a /resume endpoint that shows everything. Next I'm going to get some endpoints that can get a single element by ID, I think.
 
 ### 5/12/24
 
