@@ -2,7 +2,7 @@
 
 This is an API that I made for making things like my work background, projects I've worked on, my education, and everything accessible as an API. I thought this would be a neat little project to work on to get more familiar with deploying APIs to Microsoft Azure. And I'm really pumped with how it's turned out. This is the source code for the backend, the frontend UI code is available at [this link](https://github.com/conner-huf/connerapi-client)
 
-#### Endpoints
+### Endpoints
 - /GET app-connerapi-dev.azurewebsites.net/resume
 - /GET app-connerapi-dev.azurewebsites.net/story
 - /GET app-connerapi-dev.azurewebsites.net/workexperience
