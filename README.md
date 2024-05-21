@@ -12,6 +12,8 @@ This is an API that I made for making things like my work background, projects I
 ### Client
 [ConnerAPI](https://conner-huf.github.io/connerapi-client/)
 
+---
+
 #### 5/21/24
 
 I've added a frontend UI for interacting with the API. This makes it so much easier to show people :).
