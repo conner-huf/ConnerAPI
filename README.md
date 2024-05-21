@@ -1,15 +1,28 @@
 # ConnerAPI
-### 5/21/24
+
+This is an API that I made for making things like my work background, projects I've worked on, my education, and everything accessible as an API. I thought this would be a neat little project to work on to get more familiar with deploying APIs to Microsoft Azure. And I'm really pumped with how it's turned out. This is the source code for the backend, the frontend UI code is available at [this link](https://github.com/conner-huf/connerapi-client)
+
+#### Endpoints
+- /GET app-connerapi-dev.azurewebsites.net/resume
+- /GET app-connerapi-dev.azurewebsites.net/story
+- /GET app-connerapi-dev.azurewebsites.net/workexperience
+- /GET app-connerapi-dev.azurewebsites.net/projects
+- /GET app-connerapi-dev.azurewebsites.net/education
+
+### Client
+[ConnerAPI](https://conner-huf.github.io/connerapi-client/)
+
+#### 5/21/24
 
 I've added a frontend UI for interacting with the API. This makes it so much easier to show people :).
 
 [Link](https://conner-huf.github.io/connerapi-client/)
 
-### 5/15/24
+#### 5/15/24
 
 I got the endpoints reworked today. Now there're /projects, /workexperience, /education endpoints that display resume info, then a /resume endpoint that shows everything. Next I'm going to get some endpoints that can get a single element by ID, I think.
 
-### 5/12/24
+#### 5/12/24
 
 This is a portfolio project I am currently working on. The idea is that you'll be able to call the API to return parts of my resume, portfolio, etc. Additionally, this is a great side project for getting more comfortable with working with .NET projects. 
 
