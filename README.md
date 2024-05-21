@@ -1,4 +1,10 @@
 # ConnerAPI
+### 5/21/24
+
+I've added a frontend UI for interacting with the API. This makes it so much easier to show people :).
+
+[Link](https://conner-huf.github.io/connerapi-client/)
+
 ### 5/15/24
 
 I got the endpoints reworked today. Now there're /projects, /workexperience, /education endpoints that display resume info, then a /resume endpoint that shows everything. Next I'm going to get some endpoints that can get a single element by ID, I think.
