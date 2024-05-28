@@ -12,7 +12,7 @@ public class StoryService : IStoryService
         {
             new StoryDTO()
             {
-                Paragraphs = 
+                Paragraphs =
                 [
                     "Hi there! My name's Conner. I'm a full-stack software engineer living in Los Angeles. I appreciate you taking a look at this API!",
                     "I'm looking for a full-time role right now, and if you're here and you're hiring, maybe you should consider me as you're star candidate! This API is built using .NET and the frontend (which I assume you're calling this from) is built with React.js. This is the tech stack I typically use, the stack I enjoy using the most, and what I'd prefer to work with in my full-time job. With that said, I am completely open to using other tech stacks! I've used a multitude of different backend and frontend frameworks, and I'm also always excited to learn something new!",
@@ -32,7 +32,7 @@ public class StoryService : IStoryService
                     "Email: conner.huf@gmail.com"
                 ]
             }
-        }
+        };
         return await Task.FromResult(story);
     }
 }

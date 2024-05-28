@@ -26,6 +26,28 @@ public class ProjectService : IProjectService
             new ProjectDTO
             {
                 Id = 2,
+                Category = ProjectCategory.BackEnd,
+                ProjectName = "Conner API",
+                ProjectDescription = "The API that is populating the data you're seeing! I've integrated this API into my portfolio, so now, the entire projects page is populated by parsing through this API to create the individual project cards and display the tech used, their descriptions, and everything. The API was built using .NET and follows the CLEAN architecture pattern, deployed using Microsoft Azure. I've also made a client for interacting with the API, which can be reached from my Github or by clicking the image on my portfolio.",
+                Technologies = new List<string> { ".NET", "C#", "Azure", "APIs", "ReactQuery" },
+                SourceCodeLink = "https://github.com/conner-huf/ConnerAPI",
+                LiveDemoLink = "https://conner-huf.github.io/connerapi-client/",
+                ImageLink = "https://image1.com"
+            },
+            new ProjectDTO
+            {
+                Id = 3,
+                Category = ProjectCategory.FrontEnd,
+                ProjectName = "3D Model Viewer",
+                ProjectDescription = "This is a small project where I used the three.js library to create a 3d model viewer on a webpage. I did this to get comfortable with the three.js library because I'm planning to revisit my portfolio's home screen with the little pixel art waving fellow, and I want to make him into a 3d model that rotates back and forth. Looking through the documentation, I'll need to implement an animation clip. The documentation seems straightforward so I should be able to make it happen once I finish the 3d model.",
+                Technologies = new List<string> { "HTML", "CSS", "Javascript", "Three.js", "Blender" },
+                SourceCodeLink = "https://github.com/conner-huf/threejs",
+                LiveDemoLink = "https://conner-huf.github.io/threejs/",
+                ImageLink = "https://image1.com"
+            },
+            new ProjectDTO
+            {
+                Id = 4,
                 Category = ProjectCategory.FullStack,
                 ProjectName = "Noodle",
                 ProjectDescription = "A full-stack application for finding concerts in your local area. This is my largest scale project, and I'm hoping to link this with an affiliate code with ticketmaster if I can get approved at some point! I'm really proud of how this has turned out, and I continually improve it as I think of ideas. Uses Python Flask, React.js, Leaflet, TicketmasterAPI, SpotifyAPI, Heroku.",
@@ -36,7 +58,7 @@ public class ProjectService : IProjectService
             },
             new ProjectDTO
             {
-                Id = 3,
+                Id = 5,
                 Category = ProjectCategory.FullStack,
                 ProjectName = "Teeny Link",
                 ProjectDescription = "An application that can shorten a url. Uses Firebase to store target long URLs and generated short URLs. Made using React, Python Flask, Firebase, Heroku. This was a fun project that I mainly wanted to make so that I could create more consistent looking links to all of my things, and I wanted to learn more about how to use firebase. I have since limited the database access to read only to ensure that I'm not charged, so unfortunately links can no longer be created. But the links created in the first month still work.",
@@ -47,7 +69,7 @@ public class ProjectService : IProjectService
             },
             new ProjectDTO
             {
-                Id = 4,
+                Id = 6,
                 Category = ProjectCategory.FrontEnd,
                 ProjectName = "Pokedex App",
                 ProjectDescription = "An application that fetches data from the PokeApi to display information on the Pokemon game series. Made using React, PokeApi.co, and Node.js. This web app chugs through a lot of information to display the data, so it was a fun challenge to make it as efficient as possible.",
@@ -58,7 +80,7 @@ public class ProjectService : IProjectService
             },
             new ProjectDTO
             {
-                Id = 5,
+                Id = 7,
                 Category = ProjectCategory.GameDev,
                 ProjectName = "Asteroids",
                 ProjectDescription = "A game inspired by the asteroids arcade game. Built using Unity. I really enjoy working with Unity, and I think this was a great way to get more acquainted with it. In my free time I like to play around with Unity and see what I can make, but this is the only complete project that I currently have available.",
@@ -69,7 +91,7 @@ public class ProjectService : IProjectService
             },
             new ProjectDTO
             {
-                Id = 6,
+                Id = 8,
                 Category = ProjectCategory.GameDev,
                 ProjectName = "Evermana",
                 ProjectDescription = "An addon I created for the popular MMO World of Warcraft. Displays the current mana points of the player in circumstances when it is not visible by default. I really like this project because I think it demonstrates a good approach to software solutions. I had an issue with the UI on WoW, I researched how I could fix it, and not only did I want to fix it, I acted on it.",
@@ -80,7 +102,7 @@ public class ProjectService : IProjectService
             },
             new ProjectDTO
             {
-                Id = 7,
+                Id = 9,
                 Category = ProjectCategory.FullStack,
                 ProjectName = "Spotify Clone",
                 ProjectDescription = "A study into recreating the Spotify web application's design and functionality. Made using React.js, Node.js, TailwindCSS, Github, and Supabase.",
@@ -91,7 +113,7 @@ public class ProjectService : IProjectService
             },
             new ProjectDTO
             {
-                Id = 8,
+                Id = 10,
                 Category = ProjectCategory.FrontEnd,
                 ProjectName = "Restaurant Demo Site",
                 ProjectDescription = "A demo site for a restaurant to display their menu, about page, and contact information. Made using React.js, HTML, and CSS. Hosted on Github Pages.",
